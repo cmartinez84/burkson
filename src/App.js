@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Employees from './components/Employees';
 import RealEstate from './components/RealEstate';
 import Pool from './components/Pool';
-import Navbar from './Navbar';
+import Navbar2 from './Navbar';
 import logo from './logo.svg';
 import './App.css';
 
@@ -28,7 +28,7 @@ library.add(faExclamationTriangle)
 
 class App extends Component {
   state = {
-    selectedPanel: 'real estate'
+    selectedPanel: 'pool'
   }
   handleSelectPanel=(selectedPanel)=>{
     this.setState({selectedPanel})
@@ -43,9 +43,9 @@ class App extends Component {
     return (
       <div>
 
-        <Navbar
+        <Navbar2
           handleSelectPanel={this.handleSelectPanel}>
-        </Navbar>
+        </Navbar2>
         {
         ENUM[this.state.selectedPanel]
         }

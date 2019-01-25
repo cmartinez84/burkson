@@ -1,0 +1,14 @@
+/*Navbar Bootstrap Fixes*/
+.my-nav *{
+  color: white;
+}
+.my-nav a:hover{
+  text-decoration: none !important;
+  color: #117a8b;
+}
+.my-nav{
+  padding: 5px
+}
+.undo-flex-column{
+  flex-direction: row;
+}

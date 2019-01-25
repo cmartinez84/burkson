@@ -1,28 +1,34 @@
 import React from 'react';
+import {Navbar, NavItem, Nav, NavDropdown, MenuItem} from 'react-bootstrap';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
-const Navbar =(props)=>
-<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
-  <div className="collapse navbar-collapse" id="navbarNav">
-    <ul className="navbar-nav">
-      <li className="nav-item active">
-        <a onClick={()=>{props.handleSelectPanel('real estate')}} className="nav-link" href="#">Real Estate <span className="sr-only">(current)</span></a>
-      </li>
-      <li className="nav-item active">
-        <a onClick={()=>{props.handleSelectPanel('pool')}} className="nav-link" href="#">Pool <span className="sr-only">(current)</span></a>
-      </li>
-      <li className="nav-item active">
-        <a onClick={()=>{props.handleSelectPanel('employees')}} className="nav-link" href="#">Employees <span className="sr-only">(current)</span></a>
-      </li>
-      <li className="nav-item active text-right">
-        <a className="nav-link" href="https://github.com/cmartinez84/burkson"><FontAwesomeIcon icon={['fab','github']} /> <span className="sr-only">(current)</span></a>
-      </li>
-    </ul>
-  </div>
-</nav>
+const Navbar2 =(props)=>{
 
-export default Navbar;
+  return(
+    <Navbar inverse collapseOnSelect className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <Navbar.Header>
+        <Navbar.Brand>
+          <span>Chris Martinez</span>
+        </Navbar.Brand>
+      </Navbar.Header>
+        <Nav className="undo-flex-column">
+          <NavItem className="nav-item my-nav" eventKey={1} href="#" onSelect={ ()=>{props.handleSelectPanel('real estate')}   }>
+            Real Estate
+          </NavItem>
+          <NavItem className="nav-item my-nav" eventKey={2} href="#" onSelect={ ()=>{props.handleSelectPanel('pool')}   }>
+            Pool
+          </NavItem>
+          <NavItem className="nav-item my-nav" eventKey={2} href="#"  onSelect={ ()=>{props.handleSelectPanel('employees')} }    >
+            Employees
+          </NavItem>
+          <NavItem className="nav-item my-nav" href="https://github.com/cmartinez84/burkson">
+            <FontAwesomeIcon icon={['fab','github']} />
+          </NavItem>
+        </Nav>
+</Navbar>
+  )
+}
+
+export default Navbar2;
