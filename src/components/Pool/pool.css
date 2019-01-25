@@ -1,0 +1,43 @@
+
+.pool{
+  margin-top: 50px;
+  padding-top: 50px;
+  background: url(pool.jpeg) center center no-repeat;
+  text-align: center;
+  padding-bottom: 50px;
+  background-size: cover;
+}
+.pool-full-list{
+  background: rgba(255, 0, 0, 0.6);
+  color: white;
+}
+.pool-col-1{
+  padding: auto 0;
+  text-align: center;
+  background: rgba(255, 30, 50, 1);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  text-align: left;
+}
+
+.pool-col-2{
+  text-align: center;
+  background: rgba(255, 0, 0, 0.5);
+  color: white;
+  padding-top: 12%;
+}
+.pool-full-list{
+  padding-top: 20px;
+  -webkit-column-count: 5;
+    -moz-column-count: 5;
+         column-count: 5;
+}
+
+.pool-calendar{
+  margin: 0 auto;
+}
+.swimmer-name{
+  color: white;
+  font-size: 4em;
+}

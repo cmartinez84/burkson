@@ -1,0 +1,57 @@
+.employee-thumbnail{
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 2px aliceblue;
+}
+
+.employees-container{
+  text-align: center;
+  height: 48px
+}
+.employee-image-cell{
+  height: 48px;
+}
+.employee-name{
+  text-transform: capitalize;
+}
+
+/*Pagination Component*/
+.page-item, .page-item a{
+  background: #32383e;
+  color: white;
+}
+.selected-page a{
+  background: #95999c;
+}
+
+/*Tile*/
+div.employee-tile{
+  color: white;
+  margin-bottom: 1px;
+  padding: 15px;
+}
+div.tile-inset{
+  background: #212529;
+  height: 100%;
+  width: 95%;
+  padding: 12px;
+  box-shadow: 1px 1px 1px 1px #95999c;
+  margin: auto;
+
+}
+.employee-name-tile{
+  text-align: center;
+  font-weight: bold;
+}
+.employee-tile-job-title{
+  font-weight: lighter;
+}
+.tile-employee-thumbnail{
+  padding: 10px;
+  padding-top: 20px;
+
+}
+.tile-employee-info{
+}
+.employee-tile-contact-info{
+  letter-spacing: 9px
+}

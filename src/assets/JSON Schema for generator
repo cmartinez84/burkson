@@ -1,0 +1,26 @@
+[
+  {
+    'repeat(30, 30)': {
+      _id: '{{objectId()}}',
+      index: '{{index()}}',
+      guid: '{{guid()}}',
+      imageURL: 'http://placehold.it/32x32',
+
+      price:'{{integer(100000, 500000)}}',
+      area:'{{integer(500, 5000)}}',
+      bedroomCt:'{{integer(0, 5)}}',
+      bathroomCt:'{{integer(0, 5)}}',
+      street:'{{integer(100, 999)}} {{street()}}',
+      city: '{{city()}}',
+      state: '{{state()}}',
+      zip:'{{integer(100, 10000)}}',
+
+
+      about: '{{lorem(1, "paragraphs")}}',
+
+      latitude: '{{floating(-90.000001, 90)}}',
+      longitude: '{{floating(-180.000001, 180)}}',
+
+    }
+  }
+]
