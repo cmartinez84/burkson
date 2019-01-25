@@ -19,7 +19,7 @@ const Navbar =(props)=>
         <a onClick={()=>{props.handleSelectPanel('employees')}} className="nav-link" href="#">Employees <span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item active text-right">
-        <a className="nav-link" href="https://github.com/cmartinez84/pre-approve-me"><FontAwesomeIcon icon={['fab','github']} /> <span className="sr-only">(current)</span></a>
+        <a className="nav-link" href="https://github.com/cmartinez84/burkson"><FontAwesomeIcon icon={['fab','github']} /> <span className="sr-only">(current)</span></a>
       </li>
     </ul>
   </div>
