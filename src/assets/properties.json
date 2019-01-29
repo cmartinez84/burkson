@@ -1,7 +1,5 @@
 {
-  "results":
-
-  [
+  "results": [
     {
       "_id": "5c4aca9040696801554887d9",
       "index": 0,
@@ -17,7 +15,9 @@
       "zip": 1330,
       "about": "Elit dolor est aute labore pariatur aliqua aliquip adipisicing. Culpa magna incididunt duis ipsum minim sint dolor excepteur. Est magna enim eu consectetur tempor cillum laborum ad adipisicing labore do magna. Ipsum do ea reprehenderit occaecat quis ut occaecat quis cupidatat ullamco. Magna ullamco veniam in dolor exercitation sunt. Nostrud aliqua dolore aliquip do. Laborum irure culpa voluptate occaecat ut ullamco occaecat exercitation duis dolor do duis.",
       "latitude": "16.810046",
-      "longitude": "-0.320271"
+      "longitude": "-0.320271",
+      "lat": 45.57273989,
+      "lng": -122.59504083
     },
     {
       "_id": "5c4aca901470d143ec2e539f",
@@ -34,7 +34,9 @@
       "zip": 6516,
       "about": "Ullamco velit voluptate ullamco laborum. Voluptate dolor ad ut commodo occaecat nisi commodo enim. Nisi sunt anim proident sit esse laboris minim magna sunt. Tempor dolore laboris duis cillum adipisicing voluptate exercitation laborum excepteur.",
       "latitude": "73.229371",
-      "longitude": "163.136479"
+      "longitude": "163.136479",
+      "lat": 45.54802392,
+      "lng": -122.57879762
     },
     {
       "_id": "5c4aca90d588ffb9d4f71f2f",
@@ -51,7 +53,9 @@
       "zip": 1618,
       "about": "Voluptate sint nisi sunt proident qui consequat aliquip. Excepteur aliqua esse culpa in aliqua anim amet nostrud tempor veniam. Proident proident enim ullamco consequat.",
       "latitude": "59.034017",
-      "longitude": "133.034378"
+      "longitude": "133.034378",
+      "lat": 45.59010434,
+      "lng": -122.67781699
     },
     {
       "_id": "5c4aca90b7f74bf282cbbdda",
@@ -68,7 +72,9 @@
       "zip": 6841,
       "about": "In ea exercitation nostrud aute ex incididunt in consectetur tempor exercitation Lorem reprehenderit quis. Sunt tempor nulla voluptate quis quis elit laborum ex. Ipsum pariatur elit nisi reprehenderit est aliquip. Nisi laborum non ullamco fugiat nostrud adipisicing occaecat est proident et ut. Nulla ad incididunt minim laboris ullamco anim reprehenderit nisi non et exercitation do nulla amet. Labore ipsum laborum eu exercitation sit anim deserunt tempor eu eu.",
       "latitude": "51.958847",
-      "longitude": "-127.975585"
+      "longitude": "-127.975585",
+      "lat": 45.44655035,
+      "lng": -122.72977124
     },
     {
       "_id": "5c4aca905ffb5829be1a7b61",
@@ -85,7 +91,9 @@
       "zip": 7342,
       "about": "Ex proident ipsum non est consequat irure magna tempor exercitation. Sint exercitation magna eu eu. In id eiusmod mollit consectetur sit anim non. Dolore non sint eiusmod pariatur tempor esse ad reprehenderit occaecat. Non pariatur officia esse Lorem duis nulla reprehenderit sint adipisicing tempor id ut enim.",
       "latitude": "-85.095537",
-      "longitude": "135.030329"
+      "longitude": "135.030329",
+      "lat": 45.45884178,
+      "lng": -122.62304191
     },
     {
       "_id": "5c4aca905342a6484019d022",
@@ -102,7 +110,9 @@
       "zip": 5517,
       "about": "Est minim veniam pariatur veniam culpa aliquip qui magna do magna occaecat. Eu exercitation adipisicing aliqua sit officia. Excepteur dolor sit aliqua et nulla. Non anim mollit fugiat non et. Eiusmod dolore in incididunt dolor exercitation eiusmod ut eiusmod non ipsum dolor proident.",
       "latitude": "-52.09694",
-      "longitude": "78.570771"
+      "longitude": "78.570771",
+      "lat": 45.57905666,
+      "lng": -122.61401344
     },
     {
       "_id": "5c4aca9001456ac0d1162b3a",
@@ -119,7 +129,9 @@
       "zip": 1925,
       "about": "Sunt aliqua laborum ex sunt reprehenderit laboris aute amet nisi ullamco eiusmod excepteur. Fugiat proident eiusmod dolore commodo. Tempor officia proident tempor ut aliqua Lorem laborum sunt voluptate minim nostrud. Aliqua tempor laborum nisi consequat elit qui elit mollit nisi. Velit aliqua deserunt reprehenderit minim aute. Consequat ut nostrud anim ullamco deserunt voluptate laboris sit laboris laborum aliqua.",
       "latitude": "-32.511748",
-      "longitude": "-136.970155"
+      "longitude": "-136.970155",
+      "lat": 45.53075732,
+      "lng": -122.67998593
     },
     {
       "_id": "5c4aca9075ed1b22d2d0d6c4",
@@ -136,7 +148,9 @@
       "zip": 1865,
       "about": "Aliquip minim aute veniam tempor amet mollit labore reprehenderit labore consectetur ut aliqua dolor. Anim eiusmod magna cillum nisi magna velit laborum nisi nulla eu. Ea fugiat minim mollit ut ipsum irure consequat ipsum cillum ex occaecat qui cillum. Dolor officia Lorem et in in enim qui ad officia exercitation et. Veniam est aliqua qui reprehenderit quis nulla proident commodo incididunt excepteur incididunt amet officia.",
       "latitude": "31.028566",
-      "longitude": "-179.602282"
+      "longitude": "-179.602282",
+      "lat": 45.49093353,
+      "lng": -122.76501006
     },
     {
       "_id": "5c4aca90cecf5a11da6ca541",
@@ -153,7 +167,9 @@
       "zip": 1913,
       "about": "Quis laboris sunt mollit ea nisi non et veniam in eiusmod minim magna. Nostrud culpa quis cupidatat id incididunt nulla mollit id aliqua qui. Cupidatat reprehenderit ad fugiat ullamco officia commodo ea enim adipisicing excepteur officia.",
       "latitude": "-71.431738",
-      "longitude": "109.899651"
+      "longitude": "109.899651",
+      "lat": 45.46127365,
+      "lng": -122.65892204
     },
     {
       "_id": "5c4aca9031a22db2c8bb8d47",
@@ -170,7 +186,9 @@
       "zip": 1691,
       "about": "Consectetur pariatur consectetur minim labore nulla amet non officia aute. Laboris aliquip consectetur esse commodo voluptate cillum nostrud ex cillum velit commodo. Aute sit officia ad excepteur sit nisi esse proident. Nisi reprehenderit mollit commodo culpa elit consectetur.",
       "latitude": "-85.517479",
-      "longitude": "-51.411961"
+      "longitude": "-51.411961",
+      "lat": 45.58185237,
+      "lng": -122.73495153
     },
     {
       "_id": "5c4aca9011df05e8eb865064",
@@ -187,7 +205,9 @@
       "zip": 2921,
       "about": "Amet nostrud consequat non non eiusmod exercitation duis. Ex ipsum consectetur commodo occaecat commodo. Mollit irure tempor deserunt exercitation non irure. Adipisicing quis cupidatat sunt elit proident id est veniam fugiat mollit nisi quis labore aliquip. Dolor non veniam aliquip aliqua cupidatat cillum elit aute commodo consectetur ullamco adipisicing qui cillum. Sint in ea et irure nulla cupidatat.",
       "latitude": "50.45002",
-      "longitude": "116.027009"
+      "longitude": "116.027009",
+      "lat": 45.48573383,
+      "lng": -122.59439061
     },
     {
       "_id": "5c4aca908294cf891cc8adc8",
@@ -204,7 +224,9 @@
       "zip": 2651,
       "about": "Culpa consequat et in veniam veniam tempor laborum magna. Ipsum irure incididunt mollit adipisicing ut nulla esse id ex laborum duis ad non Lorem. Ea cupidatat labore aliquip nisi amet cupidatat quis anim eiusmod.",
       "latitude": "-50.709072",
-      "longitude": "160.579689"
+      "longitude": "160.579689",
+      "lat": 45.47649626,
+      "lng": -122.59340729
     },
     {
       "_id": "5c4aca90fe08818f5138f40d",
@@ -221,7 +243,9 @@
       "zip": 9187,
       "about": "Laboris id veniam aliqua labore. Ullamco non quis eu dolore do ullamco laboris irure pariatur nulla. Anim fugiat nisi laborum proident amet laborum ut velit in tempor excepteur tempor enim quis. Duis est mollit adipisicing fugiat Lorem ad ullamco velit adipisicing. Aute aute ex duis adipisicing et adipisicing consequat. Veniam occaecat deserunt ipsum quis enim eiusmod ipsum.",
       "latitude": "-75.746697",
-      "longitude": "-132.462703"
+      "longitude": "-132.462703",
+      "lat": 45.60440145,
+      "lng": -122.7006353
     },
     {
       "_id": "5c4aca90ea950502a6feba5e",
@@ -238,7 +262,9 @@
       "zip": 5995,
       "about": "Ullamco eu ullamco magna laborum aute magna ullamco do irure est. In sit incididunt nostrud do culpa nulla est esse duis enim ullamco. Tempor incididunt occaecat est incididunt. Mollit aliquip in fugiat ipsum fugiat enim aliquip cupidatat duis excepteur. Eiusmod fugiat voluptate ea occaecat voluptate Lorem Lorem velit irure.",
       "latitude": "-16.217821",
-      "longitude": "137.04702"
+      "longitude": "137.04702",
+      "lat": 45.54618577,
+      "lng": -122.62037974
     },
     {
       "_id": "5c4aca90e610b20f4a4a78ee",
@@ -255,7 +281,9 @@
       "zip": 3404,
       "about": "Enim sunt irure officia ex proident cillum cillum eiusmod sunt proident mollit. Exercitation voluptate irure commodo amet anim culpa amet est nulla ad sunt elit. Minim ullamco quis et pariatur id et ex Lorem dolore voluptate deserunt enim. Anim nostrud ut nostrud aliquip proident pariatur cillum. Labore dolor et ullamco ex nulla nostrud. Eiusmod anim proident mollit laborum laborum incididunt ipsum id irure irure enim ad. Elit pariatur eu anim aute.",
       "latitude": "-61.032893",
-      "longitude": "-132.358646"
+      "longitude": "-132.358646",
+      "lat": 45.54738235,
+      "lng": -122.6083309
     },
     {
       "_id": "5c4aca900e73e89a142fb013",
@@ -272,7 +300,9 @@
       "zip": 4884,
       "about": "Aute enim non duis id cupidatat. Sit officia laborum exercitation cupidatat officia nulla ad eu do. Lorem deserunt tempor proident ullamco id id excepteur.",
       "latitude": "79.745488",
-      "longitude": "172.813461"
+      "longitude": "172.813461",
+      "lat": 45.5807667,
+      "lng": 122.5910294
     },
     {
       "_id": "5c4aca9009cdfd8db7cd56bf",
@@ -289,7 +319,9 @@
       "zip": 370,
       "about": "Ad labore ex duis laboris. Amet sunt id officia ullamco elit nostrud. Sit elit Lorem ullamco veniam mollit exercitation dolor.",
       "latitude": "59.24873",
-      "longitude": "-17.994485"
+      "longitude": "-17.994485",
+      "lat": 45.47724702,
+      "lng": -122.64130906
     },
     {
       "_id": "5c4aca90b5ea7a25cf21a49c",
@@ -306,7 +338,9 @@
       "zip": 180,
       "about": "Et incididunt dolor elit esse ullamco eiusmod qui. Consequat magna officia anim reprehenderit. Elit do magna qui aute dolor voluptate ipsum culpa Lorem dolore proident.",
       "latitude": "-33.097006",
-      "longitude": "31.067965"
+      "longitude": "31.067965",
+      "lat": 45.46317179,
+      "lng": -122.59747298
     },
     {
       "_id": "5c4aca90460b24a2104d0c5a",
@@ -323,7 +357,9 @@
       "zip": 6587,
       "about": "Ut Lorem elit culpa reprehenderit Lorem cillum sit excepteur cupidatat ad. Elit tempor aliqua aute in occaecat ut reprehenderit occaecat ea ad nulla deserunt tempor. Eiusmod anim ut aliquip mollit nisi amet dolore do non laboris.",
       "latitude": "88.661703",
-      "longitude": "-2.458368"
+      "longitude": "-2.458368",
+      "lat": 45.53549789,
+      "lng": -122.78587096
     },
     {
       "_id": "5c4aca90541ac7ce347ae572",
@@ -340,7 +376,9 @@
       "zip": 7480,
       "about": "Fugiat dolor aliquip quis non. Ut culpa nisi duis et aliquip sit veniam est aliquip. Dolore minim do nulla veniam eiusmod. Sint nulla ad dolore Lorem ea officia commodo nulla veniam magna quis commodo exercitation. Duis sit proident labore id deserunt ullamco ex nulla.",
       "latitude": "80.730079",
-      "longitude": "-177.403674"
+      "longitude": "-177.403674",
+      "lat": 45.49971056,
+      "lng": -122.71144399
     },
     {
       "_id": "5c4aca90602bf1df1ba2034b",
@@ -357,7 +395,9 @@
       "zip": 3999,
       "about": "Mollit nostrud ipsum tempor deserunt ea sit excepteur sit magna est. Enim id consequat fugiat labore consequat ipsum veniam id minim anim nostrud. Ut adipisicing culpa incididunt aliquip magna in ad incididunt occaecat aliqua veniam.",
       "latitude": "-42.422148",
-      "longitude": "155.164349"
+      "longitude": "155.164349",
+      "lat": 45.52256466,
+      "lng": -122.76851308
     },
     {
       "_id": "5c4aca90b4745c2aa27f9086",
@@ -374,7 +414,9 @@
       "zip": 8824,
       "about": "Ullamco ullamco nulla dolor ea dolore. Mollit in irure tempor duis magna. Consequat commodo deserunt commodo cupidatat. Nulla do veniam eu aute aliqua qui ex esse aliqua. Enim id cillum anim incididunt exercitation officia sint eu enim.",
       "latitude": "-5.22324",
-      "longitude": "-172.674522"
+      "longitude": "-172.674522",
+      "lat": 45.53618947,
+      "lng": -122.69393595
     },
     {
       "_id": "5c4aca908dccad872a0bad67",
@@ -391,7 +433,9 @@
       "zip": 6249,
       "about": "Mollit nulla eu nulla nisi proident. Sit consequat occaecat incididunt amet. Qui labore deserunt eiusmod excepteur voluptate anim culpa. Lorem excepteur nostrud non laborum id esse laboris in sunt.",
       "latitude": "65.866976",
-      "longitude": "10.392317"
+      "longitude": "10.392317",
+      "lat": 45.49446202,
+      "lng": -122.73087547
     },
     {
       "_id": "5c4aca90c5a10bc9b80b1d5a",
@@ -408,7 +452,9 @@
       "zip": 7472,
       "about": "Culpa tempor tempor labore consectetur sint ut sit officia labore enim. Ullamco sunt duis anim deserunt nisi amet aliqua magna commodo. Sit dolor officia esse magna amet eu et fugiat dolore. Nisi sint ut ipsum dolore amet. Cillum occaecat non deserunt Lorem ullamco laboris. Veniam nostrud consectetur exercitation fugiat quis nisi voluptate eu ea ut consequat voluptate labore velit.",
       "latitude": "82.880459",
-      "longitude": "26.135415"
+      "longitude": "26.135415",
+      "lat": 45.5729013,
+      "lng": 122.73776393
     },
     {
       "_id": "5c4aca9035bf02bfe0fc9f58",
@@ -425,7 +471,9 @@
       "zip": 7685,
       "about": "Ipsum in consectetur et culpa sint non nostrud quis. Culpa dolor laborum sunt dolor elit qui culpa elit dolore dolore exercitation. Magna dolore minim id anim eu et. Ullamco ex cupidatat dolor incididunt labore ea sit exercitation. Elit eu non qui eiusmod commodo elit sunt ad in non.",
       "latitude": "55.118084",
-      "longitude": "69.64958"
+      "longitude": "69.64958",
+      "lat": 45.4750234,
+      "lng": 122.7108901
     },
     {
       "_id": "5c4aca90a08ff2e2658d48d6",
@@ -442,7 +490,9 @@
       "zip": 4632,
       "about": "Mollit culpa consequat culpa ea commodo anim. Commodo anim sunt qui magna veniam qui ut ullamco anim. Proident laboris ipsum in amet. Velit tempor in elit Lorem incididunt elit reprehenderit.",
       "latitude": "-28.421099",
-      "longitude": "154.705285"
+      "longitude": "154.705285",
+      "lat": 45.57016442,
+      "lng": -122.72719283
     },
     {
       "_id": "5c4aca90d58a6f0271611d0d",
@@ -459,7 +509,9 @@
       "zip": 8255,
       "about": "Officia sunt deserunt Lorem ut mollit cupidatat nulla nulla aliquip amet mollit. Incididunt ea amet mollit minim sint excepteur magna dolore aliquip. Nostrud tempor nostrud et ipsum aliquip aliquip adipisicing nisi enim. Cillum esse Lorem amet laborum. Labore occaecat proident commodo reprehenderit elit commodo anim ex ex esse cillum officia elit.",
       "latitude": "-23.014453",
-      "longitude": "2.831536"
+      "longitude": "2.831536",
+      "lat": 45.55644272,
+      "lng": -122.73895256
     },
     {
       "_id": "5c4aca90c667d54f4522065b",
@@ -476,7 +528,9 @@
       "zip": 8297,
       "about": "Ea culpa cillum occaecat irure in. Elit aliqua consectetur proident veniam veniam. Dolore tempor anim minim elit. Tempor ullamco velit adipisicing labore laborum do id Lorem exercitation id minim enim velit Lorem.",
       "latitude": "2.348298",
-      "longitude": "-92.20385"
+      "longitude": "-92.20385",
+      "lat": 45.53339173,
+      "lng": -122.70684503
     },
     {
       "_id": "5c4aca9088abdecad5765c85",
@@ -493,7 +547,9 @@
       "zip": 1915,
       "about": "Lorem aute minim ipsum deserunt officia sit eu nisi sunt ad est. Amet et labore eiusmod quis laboris exercitation sint nulla sunt occaecat eiusmod. Magna nulla Lorem duis culpa velit quis ad aliquip Lorem ipsum ut in voluptate commodo. Tempor cillum officia dolor consequat reprehenderit est consequat tempor consequat adipisicing exercitation minim.",
       "latitude": "39.598708",
-      "longitude": "92.517574"
+      "longitude": "92.517574",
+      "lat": 45.52904057,
+      "lng": -122.77937292
     },
     {
       "_id": "5c4aca905034f1f887e01dce",
@@ -510,7 +566,9 @@
       "zip": 4113,
       "about": "Occaecat ut laborum incididunt ullamco laboris. Fugiat irure culpa proident deserunt voluptate labore sint cupidatat ipsum reprehenderit veniam occaecat. Magna aute dolore pariatur non.",
       "latitude": "-42.411253",
-      "longitude": "-4.742271"
+      "longitude": "-4.742271",
+      "lat": 45.48040427,
+      "lng": -122.62143922
     }
   ]
 }

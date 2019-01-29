@@ -4,6 +4,7 @@ import RealEstate from './components/RealEstate';
 import Pool from './components/Pool';
 import Navbar2 from './Navbar';
 import logo from './logo.svg';
+
 import './App.css';
 
 
@@ -28,7 +29,7 @@ library.add(faExclamationTriangle)
 
 class App extends Component {
   state = {
-    selectedPanel: 'pool'
+    selectedPanel: 'real estate'
   }
   handleSelectPanel=(selectedPanel)=>{
     this.setState({selectedPanel})

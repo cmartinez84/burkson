@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import Img from 'react-image'
 import PropertyTile from './PropertyTile';
 import PropertyFilters from './PropertyFilters';
+import MapContainer from './MapContainer';
+
 import { ClipLoader } from 'react-spinners';
 import { css } from '@emotion/core';
 
@@ -19,12 +21,12 @@ class RealEstate extends Component{
     isDataLoaded: false,
   }
   componentDidMount() {
-    const url = "https://api.myjson.com/bins/o4o3w";
+    const url = "https://api.myjson.com/bins/fl0kg";
       fetch(url)
       .then(response => {
         if(!response.ok){
           this.fetchLocalData();
-          throw new Error("Looks like randomuser.com is down! Don't worry, we have some sample data stored!");
+          throw new Error("Looks like our server is down! Don't worry, we have some sample data stored!");
         }
         else{
           return response.json()
@@ -97,18 +99,23 @@ class RealEstate extends Component{
       text-align: center
     `;
 
+// cols 3 and 8 for grid
 
     return(
       <div className="container real-estate">
         <div className="row ">
-          <div className="col-md-3">
+          <div className="col-md-7">
+            <MapContainer
+              properties={this.state.properties}>
+
+            </MapContainer>
+          </div>
+          <div className="properties col-md-5 ">
             <PropertyFilters
               onValueChange={this.handleValueChange}
               reformatOutput={this.formatOutput}
               >
             </PropertyFilters>
-          </div>
-          <div className="properties col-md-8 ">
             {
               this.state.isDataLoaded ?
                 <div className="real-estate-col-2">

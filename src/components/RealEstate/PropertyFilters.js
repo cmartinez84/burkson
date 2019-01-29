@@ -37,8 +37,9 @@ const PropertyFilters = (props)=>{
 
   return(
     <div className="property-filter-container real-estate-col-1">
-      <p className="results-count h4">Filters </p>
-
+        {
+          // <p className="results-count h4">Filters </p>
+        }
       <div className="">
         <label>Bedrooms</label>
         <Select
