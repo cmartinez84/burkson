@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Employees from './components/Employees';
 import RealEstate from './components/RealEstate';
 import Pool from './components/Pool';
-import Navbar2 from './Navbar';
+import NavBarContainer from './NavBarContainer';
 import logo from './logo.svg';
 
 import './App.css';
@@ -44,9 +44,9 @@ class App extends Component {
     return (
       <div>
 
-        <Navbar2
+        <NavBarContainer
           handleSelectPanel={this.handleSelectPanel}>
-        </Navbar2>
+        </NavBarContainer>
         {
         ENUM[this.state.selectedPanel]
         }
