@@ -104,18 +104,20 @@ class RealEstate extends Component{
     return(
       <div className="container real-estate">
         <div className="row ">
-          <div className="col-md-7">
-            <MapContainer
-              properties={this.state.properties}>
-
-            </MapContainer>
-          </div>
-          <div className="properties col-md-5 ">
+          <div className="col-md-3">
             <PropertyFilters
               onValueChange={this.handleValueChange}
               reformatOutput={this.formatOutput}
               >
             </PropertyFilters>
+            {
+              // <MapContainer
+              //   properties={this.state.properties}>
+              // </MapContainer>
+            }
+          </div>
+          <div className="properties col-md-8 ">
+
             {
               this.state.isDataLoaded ?
                 <div className="real-estate-col-2">
