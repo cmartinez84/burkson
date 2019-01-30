@@ -4,6 +4,8 @@ import PropertyTile from './PropertyTile';
 import PropertyFilters from './PropertyFilters';
 import MapContainer from './MapContainer';
 
+import RealEstateFilterNavbar from './RealEstateFilterNavbar';
+
 import { ClipLoader } from 'react-spinners';
 import { css } from '@emotion/core';
 
@@ -103,21 +105,20 @@ class RealEstate extends Component{
 
     return(
       <div className="container real-estate">
+        <RealEstateFilterNavbar
+          selectedPriceRange={this.state.selectedPriceRange}
+          selectedBedroomRange={this.state.selectedBedroomRange}
+          selectedAreaRange={this.state.selectedAreaRange}
+          onValueChange={this.handleValueChange}
+          reformatOutput={this.formatOutput}
+          ></RealEstateFilterNavbar>
         <div className="row ">
-          <div className="col-md-3">
-            <PropertyFilters
-              onValueChange={this.handleValueChange}
-              reformatOutput={this.formatOutput}
-              >
-            </PropertyFilters>
-            {
-              // <MapContainer
-              //   properties={this.state.properties}>
-              // </MapContainer>
-            }
+          <div className="col-md-4">
+              <MapContainer
+                properties={this.state.properties}>
+              </MapContainer>
           </div>
           <div className="properties col-md-8 ">
-
             {
               this.state.isDataLoaded ?
                 <div className="real-estate-col-2">

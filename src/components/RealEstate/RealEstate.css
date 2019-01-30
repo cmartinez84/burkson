@@ -51,3 +51,19 @@
 .property-filter-button-wrapper button{
   background-color:  #43727a;
 }
+
+/*real estate navbar*/
+.real-estate-filter-drop-down .show{
+  /*width: 300px;*/
+  padding: 25px 10px;
+}
+.filter-price .show, .filter-area .show{
+  min-width: 210px;
+}
+.filter-button{
+  background: #cac4b5;
+}
+.real-estate .nav-item{
+  padding-left: 3px;
+  padding-right: 3px;
+}

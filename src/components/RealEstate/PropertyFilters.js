@@ -85,22 +85,3 @@ const PropertyFilters = (props)=>{
 }
 
 export default PropertyFilters;
-
-
-// return (
-//   <div className="property-filters-container row">
-//     <select className="  form-control dropdown-menu" onChange={props.onPriceChange}>
-//       <option className="dropdown-item" value="any"> </option>
-//         <option  value="mo"></option>
-//     </select>
-//     <select className=" col-sm-3 form-control" onChange={props.onPriceChange}>
-//       <option value="any">Any Price</option>
-//         <option value="mo">Any n</option>
-//     </select>
-//     <select className=" col-sm-3 form-control">
-//       <option>Any Square Ft</option>
-//     </select>
-//     <button className="btn btn-info">Go!</button>
-//   </div>
-//
-// )
