@@ -37,25 +37,21 @@ class NavBarContainer extends Component{
                  <Nav className="ml-auto" navbar>
                    <NavItem>
                      <NavLink
-                       eventKey={1}
                        href="#"
                         onClick={ ()=>{this.props.handleSelectPanel('real estate')}}> Real Estate</NavLink>
                    </NavItem>
                    <NavItem>
                      <NavLink
-                       eventKey={1}
                        href="#"
                         onClick={ ()=>{this.props.handleSelectPanel('pool')}}> Pool</NavLink>
                    </NavItem>
                    <NavItem>
                      <NavLink
-                       eventKey={1}
                        href="#"
                         onClick={ ()=>{this.props.handleSelectPanel('employees')}}> Employees</NavLink>
                    </NavItem>
                    <NavItem>
                    <NavLink
-                     eventKey={1}
                      href="https://github.com/cmartinez84/burkson">
                       <FontAwesomeIcon icon={['fab','github']} /></NavLink>
                   </NavItem>

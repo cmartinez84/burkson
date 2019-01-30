@@ -25,11 +25,6 @@ class RealEstate extends Component{
     selectedProperty: null,
   }
 
-  // scrollToComponent(this.refs.name, {
-  //   offset: 1000,
-  //   align: 'top',
-  //   duration: 1500
-  // });
 
   componentDidMount() {
     const url = "https://api.myjson.com/bins/fl0kg";
@@ -103,17 +98,9 @@ class RealEstate extends Component{
   handleSelectProperty=(selectedProperty)=>{
     this.setState({selectedProperty})
   }
-  handleFind=(id)=>{
-    // scrollToComponent(this[id], {
-    //   // offset: 1000,
-    //   align: 'top',
-    //   // duration: 1500
-    // });
-    console.log(id);
-  }
 
   render(){
-    const override = css`
+    const override = `
       width: 200px;
       display: block;
       margin: 0 auto;
@@ -145,13 +132,14 @@ class RealEstate extends Component{
                 <div className="real-estate-col-2">
                   <p className="results-count h4">{this.state.resultsCount} Reults </p>
                 {
-                  this.state.formattedOutput.map(row=>
-                  <div className="row">
+                  this.state.formattedOutput.map((row,i)=>
+                  <div key={i} className="row">
                     {
                       row.map(property=>
                         Object.keys(property).length > 0 ?
 
                         <PropertyTile
+                          key={property._id}
                           selectedProperty={this.state.selectedProperty}
                           property={property}/> : null
                       )

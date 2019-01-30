@@ -4,7 +4,7 @@ import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 export class MapContainer extends Component {
   style ={
     width: '100%',
-    "max-height": '600px',
+    "maxHeight": '600px',
   }
   markerstyle={
     color:'blue',
