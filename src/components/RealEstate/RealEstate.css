@@ -41,6 +41,9 @@
 .address{
   color: rgb(70,70,70);
 }
+.selected-property-tile{
+  background: #3a4e4e !important;
+}
 
 /*filter*/
 .property-filter-button-wrapper{
@@ -66,4 +69,7 @@
 .real-estate .nav-item{
   padding-left: 3px;
   padding-right: 3px;
+}
+.property-marker{
+  background: blue !important
 }

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+
 import Img from 'react-image'
 import PropertyTile from './PropertyTile';
 import PropertyFilters from './PropertyFilters';
@@ -21,7 +22,15 @@ class RealEstate extends Component{
     formattedOutput: [],
     resultsCount: 0,
     isDataLoaded: false,
+    selectedProperty: null,
   }
+
+  // scrollToComponent(this.refs.name, {
+  //   offset: 1000,
+  //   align: 'top',
+  //   duration: 1500
+  // });
+
   componentDidMount() {
     const url = "https://api.myjson.com/bins/fl0kg";
       fetch(url)
@@ -91,6 +100,17 @@ class RealEstate extends Component{
       formattedOutput
     });
   }
+  handleSelectProperty=(selectedProperty)=>{
+    this.setState({selectedProperty})
+  }
+  handleFind=(id)=>{
+    // scrollToComponent(this[id], {
+    //   // offset: 1000,
+    //   align: 'top',
+    //   // duration: 1500
+    // });
+    console.log(id);
+  }
 
   render(){
     const override = css`
@@ -101,7 +121,6 @@ class RealEstate extends Component{
       text-align: center
     `;
 
-// cols 3 and 8 for grid
 
     return(
       <div className="container real-estate">
@@ -115,6 +134,8 @@ class RealEstate extends Component{
         <div className="row ">
           <div className="col-md-4">
               <MapContainer
+                handleSelectProperty={this.handleSelectProperty}
+                formatOutput={this.state.formattedOutput}
                 properties={this.state.properties}>
               </MapContainer>
           </div>
@@ -129,7 +150,10 @@ class RealEstate extends Component{
                     {
                       row.map(property=>
                         Object.keys(property).length > 0 ?
-                        <PropertyTile property={property}/> : null
+
+                        <PropertyTile
+                          selectedProperty={this.state.selectedProperty}
+                          property={property}/> : null
                       )
                     }
                   </div>

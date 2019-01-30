@@ -3,18 +3,31 @@ import Img from 'react-image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import NumberFormat from 'react-number-format';
 
+
+
 import './RealEstate.css'
 import loader from './../../assets/loader3.gif';
 
 
+
 const PropertyTile =(props)=>{
+
   const imagePlaceholder = <img className="loader" src={loader}/>
   const croppedImageBackground = {
     background: "url("+props.property.imageURL+") center center no-repeat",
     backgroundSize: "cover"
   }
+  const isSelectedProperty=()=>{
+    if(props.property === props.selectedProperty){
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
   return (
-    <div className="property-tile col-sm-4">
+
+    <div className={`property-tile col-sm-4 ${isSelectedProperty() ?'selected-property-tile': null }`}>
       <div className="property-tile-inset">
         <div style={croppedImageBackground} className="property-tile-image-wrapper">
         </div>

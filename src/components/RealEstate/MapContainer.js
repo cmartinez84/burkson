@@ -6,8 +6,16 @@ export class MapContainer extends Component {
     width: '100%',
     "max-height": '600px',
   }
-
+  markerstyle={
+    color:'blue',
+    height: '100px',
+    display: 'none'
+  }
+  handleMarkerClick=(property, marker, e)=>{
+    this.props.handleSelectProperty(property);
+  }
   render() {
+
     return (
       <Map
         style={this.style}
@@ -18,23 +26,21 @@ export class MapContainer extends Component {
         google={this.props.google}
         zoom={11}>
         {
-            this.props.properties.map(property=>
-              <Marker
-              position={{lat:  property.lat, lng: property.lng}}>
-            </Marker>
+            this.props.formatOutput.map(row=>
+               row.map((property, i)=>
+                <Marker
+                  onClick={()=>{this.handleMarkerClick(property)}}
+                  key={i}
+                  position={{lat:  property.lat, lng: property.lng}}
+                  >
+                 </Marker>)
           )
         }
-
-
-        <InfoWindow onClose={this.onInfoWindowClose}>
-            <div>
-              <h1>dd</h1>
-            </div>
-        </InfoWindow>
       </Map>
     );
   }
 }
+// "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
 
 export default GoogleApiWrapper({
   apiKey: (process.env.REACT_APP_GOOGLE_API_KEY)
